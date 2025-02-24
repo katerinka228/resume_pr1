@@ -1,0 +1,99 @@
+body {
+  font-family: 'Kanit', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #ff4444; /* Бледно-красный цвет для имени */
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #b0b0b0;
+}
+
+.experience, .skills, .contact, .hackathons, .education {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #ff4444;
+  padding-bottom: 10px;
+  color: #ff4444;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #FFE4B5; /* Бледно-красный цвет для подзаголовков */
+  margin-bottom: 10px;
+}
+
+/* Точки только для навыков и контактов */
+.skills ul, .contact ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #e0e0e0;
+}
+
+/* Убираем точки для остальных списков */
+.hackathons ul, .education ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+/* Убираем рамку (карточку) для образования */
+.education-item {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Рамка только для хакатонов */
+.hackathon-item {
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Ссылка на GitHub */
+a {
+  color: #ff6666; /* Бледно-красный цвет для ссылок */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Плавное изменение цвета */
+}
+
+a:hover {
+  color: #FFE4B5; /* Ярко-красный цвет при наведении */
+  text-decoration: underline;
+}

@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Kanit', Arial, sans-serif; /* Используем шрифт Kanit */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.experience, .skills, .contact, .hackathons, .education {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  color: #2980b9;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Точки только для навыков и контактов */
+.skills ul, .contact ul {
+  list-style-type: disc; /* Точки для неупорядоченного списка */
+  padding-left: 40px; /* Отступ для списка */
+}
+
+/* Убираем точки для остальных списков */
+.hackathons ul, .education ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Убираем рамку (карточку) для образования */
+.education-item {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Рамка только для хакатонов */
+.hackathon-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
