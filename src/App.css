@@ -19,21 +19,7 @@ body {
   border-radius: 10px;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 40px;
-}
 
-.header h1 {
-  font-size: 2.5em;
-  margin: 0;
-  color: #ff4444; /* Бледно-красный цвет для имени */
-}
-
-.header p {
-  font-size: 1.2em;
-  color: #b0b0b0;
-}
 
 .experience, .skills, .contact, .hackathons, .education {
   margin-bottom: 40px;
@@ -49,51 +35,25 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  color: #FFE4B5; /* Бледно-красный цвет для подзаголовков */
+  color: #FFE4B5;
   margin-bottom: 10px;
 }
 
-/* Точки только для навыков и контактов */
-.skills ul, .contact ul {
-  list-style-type: disc;
-  padding-left: 40px;
-  color: #e0e0e0;
-}
-
-/* Убираем точки для остальных списков */
-.hackathons ul, .education ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
 
 ul li {
   margin-bottom: 10px;
   color: #e0e0e0;
 }
 
-/* Убираем рамку (карточку) для образования */
-.education-item {
-  padding: 0;
-  background-color: transparent;
-  box-shadow: none;
-}
 
-/* Рамка только для хакатонов */
-.hackathon-item {
-  background-color: #2c2c2c;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
 
-/* Ссылка на GitHub */
 a {
-  color: #ff6666; /* Бледно-красный цвет для ссылок */
+  color: #ff6666;
   text-decoration: none;
-  transition: color 0.3s ease; /* Плавное изменение цвета */
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #FFE4B5; /* Ярко-красный цвет при наведении */
+  color: #FFE4B5;
   text-decoration: underline;
 }

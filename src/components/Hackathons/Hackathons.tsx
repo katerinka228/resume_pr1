@@ -1,3 +1,5 @@
+import "./Hackathons.css";
+
 interface Hackathon {
     title: string;
     role: string;

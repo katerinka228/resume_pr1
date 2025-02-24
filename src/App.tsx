@@ -1,55 +1,20 @@
-
-import Header from "./components/Header";
+import Header from "./components/Header/Header.tsx";
 import Experience from "./components/Experience";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills.tsx";
 import Contact from "./components/Contact";
-import Hackathons from "./components/Hackathons";
-import Education from "./components/Education";
+import Hackathons from "./components/Hackathons/Hackathons.tsx";
+import Education from "./components/Education/Education.tsx";
 import "./App.css";
 
+import {
+    userData,
+    experienceData,
+    skillsData,
+    hackathonsData,
+    educationData,
+} from "./data";
+
 export default function App() {
-    const userData = {
-        name: "Ekaterina Varfolomeeva",
-        role: "Junior Frontend Developer",
-        email: "varfolomeeva.katka@yandex.ru",
-        phone: "+7 (977) 341-54-84",
-        github: "https://github.com/katerinka228",
-    };
-
-    const experienceData = [
-        {
-            title: "Project Calculator",
-            description: "A simple calculator with basic functions.",
-        },
-        {
-            title: "Project: Cookies",
-            description: "Website-online cookie store",
-        },
-    ];
-
-    const skillsData = ["HTML, CSS, JavaScript", "React, TypeScript", "Vite", "Git, GitHub"];
-
-    const hackathonsData = [
-        {
-            title: "Hackathon 'school of IT solutions'",
-            role: "Frontend Developer",
-            description: "Team member, developed a school navigator website.",
-        },
-        {
-            title: "Hackathon 'Summer School of software engineering'",
-            role: "Frontend Developer and Web-designer",
-            description: "Event planner website.",
-        },
-    ];
-
-    const educationData = [
-        {
-            institution: "MIREA University",
-            faculty: "Faculty of Computer science and Engineering",
-            period: "2024 - ...",
-        },
-    ];
-
     return (
         <div className="app">
             <Header name={userData.name} role={userData.role} />

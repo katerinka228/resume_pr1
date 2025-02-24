@@ -1,3 +1,5 @@
+import "./Skills.css";
+
 interface SkillsProps {
     skills: string[];
 }
